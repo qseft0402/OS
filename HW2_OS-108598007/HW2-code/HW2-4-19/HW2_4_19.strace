@@ -1,0 +1,87 @@
+execve("./HW2_4_19.out", ["./HW2_4_19.out"], [/* 68 vars */]) = 0
+brk(NULL)                               = 0x93d000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=89874, ...}) = 0
+mmap(NULL, 89874, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fead4821000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fead4820000
+mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fead4290000
+mprotect(0x7fead4402000, 2097152, PROT_NONE) = 0
+mmap(0x7fead4602000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7fead4602000
+mmap(0x7fead460e000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fead460e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fead4073000
+mprotect(0x7fead408b000, 2093056, PROT_NONE) = 0
+mmap(0x7fead428a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fead428a000
+mmap(0x7fead428c000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fead428c000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fead3ca9000
+mprotect(0x7fead3e69000, 2097152, PROT_NONE) = 0
+mmap(0x7fead4069000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7fead4069000
+mmap(0x7fead406f000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fead406f000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fead481f000
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fead39a0000
+mprotect(0x7fead3aa8000, 2093056, PROT_NONE) = 0
+mmap(0x7fead3ca7000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7fead3ca7000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fead378a000
+mprotect(0x7fead37a0000, 2093056, PROT_NONE) = 0
+mmap(0x7fead399f000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7fead399f000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fead481e000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fead481c000
+arch_prctl(ARCH_SET_FS, 0x7fead481c740) = 0
+mprotect(0x7fead4069000, 16384, PROT_READ) = 0
+mprotect(0x7fead3ca7000, 4096, PROT_READ) = 0
+mprotect(0x7fead428a000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fead481b000
+mprotect(0x7fead4602000, 40960, PROT_READ) = 0
+mprotect(0x601000, 4096, PROT_READ)     = 0
+mprotect(0x7fead4837000, 4096, PROT_READ) = 0
+munmap(0x7fead4821000, 89874)           = 0
+set_tid_address(0x7fead481ca10)         = 19193
+set_robust_list(0x7fead481ca20, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7fead4078b50, [], SA_RESTORER|SA_SIGINFO, 0x7fead4084390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7fead4078be0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7fead4084390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x93d000
+brk(0x96f000)                           = 0x96f000
+futex(0x7fead460f1ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7fead460f1b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 19), ...}) = 0
+write(1, "pls input the number:", 21)   = 21
+fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 19), ...}) = 0
+read(0, "50\n", 1024)                   = 3
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fead2f89000
+mprotect(0x7fead2f89000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7fead3788fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fead37899d0, tls=0x7fead3789700, child_tidptr=0x7fead37899d0) = 19194
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fead2788000
+mprotect(0x7fead2788000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7fead2f87fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fead2f889d0, tls=0x7fead2f88700, child_tidptr=0x7fead2f889d0) = 19195
+futex(0x7fead399f680, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+exit(0)                                 = ?
++++ exited with 0 +++
